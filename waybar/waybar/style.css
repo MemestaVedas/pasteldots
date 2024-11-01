@@ -72,6 +72,7 @@
 #clock,
 #battery,
 #pulseaudio,
+#custom-notification
 #custom-exit {
   padding: 0.5rem 1rem;
   margin: 5px 0;
@@ -107,7 +108,7 @@
 
 #pulseaudio {
   border-radius: 0rem 0px 0px 0rem;
-  margin-left: -1.3rem;
+  margin-left: -1rem;
 }
 
 #custom-exit {
@@ -115,10 +116,13 @@
     margin-left: -1rem;
     border-radius: 0px 1rem 1rem 0px;
     padding: 0rem 1.5rem 0rem 1rem;
+    color: @red;
 }
 #tray {
 margin-right: 0.5rem;
 }
 #custom-notification {
   font-family: "NotoSansMono Nerd Font";
+  color: @red;
+  margin-right: 1rem;
 }

@@ -25,7 +25,7 @@
     ],
     "modules-right": [
       //  "mpd",
-      "custom-notification",
+
       "tray",
           "clock",
         "pulseaudio",
@@ -36,7 +36,7 @@
       //  "keyboard-state", 
         "battery", 
    
-
+      "custom/notification",
         "custom/exit"
     ]
 }

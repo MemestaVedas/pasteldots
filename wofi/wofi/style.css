@@ -1,52 +1,96 @@
+* {
+transition: all 3s ease;
+}
 
 window {
-    position: relative; 
-    background-color: rgba(256, 256, 256, 0.7);
-    border-radius: 15px;
-    margin: 10px;
-    border: 2px solid #cdd6f4;
-    background-image: url('/home/mv/randomshit/Untitled9_20241018022854.png');
-    background-size: cover; 
-    background-position: center; 
+  position: relative;
+	font-family: "SF Pro Display";
+	font-size: 13px;
+  margin: 0px;
+  background-image: url('/home/mv/randomshit/wofiku.png');
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 20px;
 }
 
-#overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(30, 30, 46, 0.5); 
-    border-radius: 15px; 
-    z-index: 1; 
-}
-
-#input, #entry {
-    position: relative; 
-    z-index: 2; 
-    padding: 10px;
-    margin: 10px;
-    border: none;
-    color: #cdd6f4; 
-    background-color: rgba(30, 30, 46, 0.8); 
-    border-radius: 15px;
+#input {
+    padding: 4px;
+    margin: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    background:linear-gradient(-45deg, #A8C4D9 0%, #9B7AD4 52%, #BD90CF 90%); 
     outline: none;
+    border-radius: 15px;
+    color: #2A2C3D;
+}
+
+#input image {
+    color: #2B283E;
+}
+
+#input:focus {
+    border: none;
+   	outline: none;
+}
+
+#inner-box {
+    margin: 20px;
+    margin-top: 0px;
+    border: none;
+    color: #2B283E;
+    border-radius: 16px;
+}
+
+#inner-box * {
+    transition: none;
+}
+
+#outer-box {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    border-radius: 16px;
+}
+
+#scroll {
+    margin-top: 5px;
+    border: none;
+    border-radius: 16px;
+    margin-bottom: 5px;
+}
+
+#text:selected {
+    size: 200px;
+    color: #2B283E;
+    font-weight: italic;
+}
+
+#img {
+    margin-right: 20px;
+    background: transparent;
+}
+
+#text {
+    margin: 0px;
+    color: #F38BA8;
+    border: none;
+    padding: 0px;
+    background: transparent;
+    size: 50px;
 }
 
 #entry {
-    background-color: rgba(30, 30, 46, 0.0); 
+    margin: 0px;
+    border: none;
+    border-radius: 16px;
+    background-color: transparent;
+    min-height:32px;
+    font-weight: bold;
 }
 
-/* Modify the content section for proper alignment */
-#content {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* Align items to the left by default */
-    position: relative; /* Ensure it lays on top of overlay */
-    z-index: 2; 
-}
-
-.icon {
-    margin-left: auto; /* Push icons to the right */
-    margin-right: 10px; /* Space from the right edge */
+#entry:selected {
+    outline: none;
+    margin: 0px;
+    border: none;
+    background: transparent;
 }

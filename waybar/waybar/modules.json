@@ -67,7 +67,8 @@
     // Clock
   "clock": {
     "format": "{:%I:%M %p}",
-    "interval": 1
+    "interval": 1,
+    "max-lengt": 2
   },
 
     // System
