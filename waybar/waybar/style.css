@@ -96,6 +96,8 @@
 
 #battery.warning:not(.charging) {
   color: @red;
+  background: red;
+  padding: 2px 10px 0px 10px;
 }
 
 #custom-brightness {
