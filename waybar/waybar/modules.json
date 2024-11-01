@@ -47,16 +47,6 @@
         "tooltip": false
     },
 
-    // Keyboard State
-    "keyboard-state": {
-        "numlock": true,
-        "capslock": true,
-        "format": "{name} {icon}",
-        "format-icons": {
-            "locked": "",
-            "unlocked": ""
-        }
-    },
 
     // System tray
     "tray": {
@@ -76,13 +66,6 @@
         "format": "",
         "tooltip": false
     },
-
-    // CPU
-    "cpu": {
-        "format": "/ C {usage}% ",
-        "on-click": "alacritty -e htop"
-    },
-
     // Memory
     "memory": {
         "format": "/ M {}% ",
