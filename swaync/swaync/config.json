@@ -7,19 +7,20 @@
 "layer-shell": true,
 "cssPriority": "application",
 
-    "control-center-width": 350,
+    "control-center-width": 450,
     "control-center-height": 695, 
-    "control-center-margin-top": 1,
+    "control-center-margin-top": 2,
     "control-center-margin-bottom": 2,
-    "control-center-margin-right": 1,
+    "control-center-margin-right": 2,
     "control-center-margin-left": 0,
   	
     "notification-2fa-action": true,
   	"notification-inline-replies": true,
-    "notification-window-width": 301,
-    "notification-icon-size": 50,
+    "notification-window-width": 400,
+    "notification-icon-size": 120,
     "notification-body-image-height":  140,
     "notification-body-image-width": 180,
+    "notification-icon-rounding": 1,
     
     "timeout": 6,
     "timeout-low": 3,
@@ -55,7 +56,7 @@
             "text": "Notification"
         },
         "mpris": {
-            "image-size": 60,
+            "image-size": 120,
             "image-radius": 10
         },
         "volume": {
@@ -67,7 +68,7 @@
         "buttons-grid": {
             "actions": [
                 {
-                    "label": " Wi-FI",
+                    "label": "  Wi-FI",
                     "command": "nm-connection-editor"
                 },
                 {
@@ -78,12 +79,6 @@
                 {
                     "label": "󰂯 Bluetooth",
                     "command": "blueman-manager"
-                },
-                {
-                    "label": "  Theme",
-                    "command":"/home/alien/.config/hypr/scripts/themechanging"
-
-                    
                 }
             ]
         }
