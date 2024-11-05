@@ -121,3 +121,21 @@ margin-right: 0.5rem;
   color: @red;
   margin-right: 1rem;
 }
+#custom-music {
+    background: rgb(137, 180, 250);
+    background-image: linear-gradient(-45deg, #A8C4D9 0%, #9B7AD4 52%, #BD90CF 90%);
+    background-size: 400% 400%;
+    animation: gradient_f 9s cubic-bezier(.72, .39, .21, 1) infinite;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377);
+    font-weight: bold;
+    color: #fff;
+    border-top-left-radius: 1rem;
+border-top-right-radius: 1rem;
+border-bottom-right-radius: 1rem;
+border-bottom-left-radius: 1rem;
+}
+
+#custom-music.Paused,
+#custom-music.Stopped {
+    background: #161925;
+}
