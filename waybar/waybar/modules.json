@@ -126,8 +126,8 @@
     "exec": "~/.scripts/caway",
     "return-type": "json",
     "on-click": "playerctl play-pause",
-    "on-scroll-up": "playerctl previous",
-    "on-scroll-down": "playerctl next",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous",
     "on-click-right": "g4music",
     "max-length": 35
   },
