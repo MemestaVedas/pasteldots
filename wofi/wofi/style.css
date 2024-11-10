@@ -7,7 +7,7 @@ window {
 	font-family: "SF Pro Display";
 	font-size: 13px;
   margin: 0px;
-  background-image: url('/home/mv/randomshit/wofiku.png');
+  background-image: url('/home/mv/randomshit/navia.png');
   background-size: cover;
   background-color: transparent;
   border-radius: 20px;
@@ -18,7 +18,7 @@ window {
     margin: 20px;
     padding-left: 20px;
     font-weight: bold;
-    background:linear-gradient(-45deg, #A8C4D9 0%, #9B7AD4 52%, #BD90CF 90%); 
+    background:linear-gradient(45deg, #FFFFFF 10%, #834EA7 35%, #F3A760 50%, #60BAF3 70%); 
     outline: none;
     border-radius: 15px;
     color: #2A2C3D;
@@ -61,7 +61,7 @@ window {
 
 #text:selected {
     size: 200px;
-    color: #2B283E;
+    color: #BF6C19;
     font-weight: italic;
 }
 
@@ -72,7 +72,7 @@ window {
 
 #text {
     margin: 0px;
-    color: #F38BA8;
+    color: #3C3F48;
     border: none;
     padding: 0px;
     background: transparent;
