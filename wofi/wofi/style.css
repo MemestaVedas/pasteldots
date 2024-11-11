@@ -18,7 +18,7 @@ window {
     margin: 20px;
     padding-left: 20px;
     font-weight: bold;
-    background:linear-gradient(45deg, #FFFFFF 10%, #834EA7 35%, #F3A760 50%, #60BAF3 70%); 
+    background:linear-gradient(45deg, #FFFFFF 20%, #834EA7 45%, #F3A760 65%, #60BAF3 90%); 
     outline: none;
     border-radius: 15px;
     color: #2A2C3D;
