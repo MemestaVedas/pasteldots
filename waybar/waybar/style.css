@@ -133,6 +133,11 @@ margin-right: 0.5rem;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
+      background-image: url("/home/mv/randomshit/nobitchesmiku.jpg");
+  background-size: cover;         
+  background-position: center;    
+  background-repeat: no-repeat;   
+  animation: gradientAnimation 1s ease infinite;
 }
 
 #custom-music.Paused,
