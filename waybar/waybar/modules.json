@@ -119,7 +119,12 @@
     "format-icons": {
         // "Playing": " ", // Uncomment if not using caway
         "Paused": "  ",
-        "Stopped": "&#x202d;ﭥ " // This stop symbol is RTL. So &#x202d; is left-to-right override.
+        "Stopped": "&#x202d;ﭥ ", // This stop symbol is RTL. So &#x202d; is left-to-right override.
+        "exec": "/home/mv/art.sh",
+    "interval": 10,
+    "return-type": "json",
+    "format": "{}",
+    "tooltip": false
     },
     "escape": true,
     "tooltip": true,
