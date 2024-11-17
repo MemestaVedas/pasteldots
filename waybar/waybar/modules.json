@@ -212,7 +212,7 @@
 	"status-icons": {
 		"paused": "▶" 
 	},
-	"ignored-players": ["zen-alpha"]
+	"ignored-players": ["firefox"]
 },
 
     // Idle Inhibator
