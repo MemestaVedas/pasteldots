@@ -21,6 +21,8 @@ import { Updates } from 'customModules/updates/index';
 import { Submap } from 'customModules/submap/index';
 import { Weather } from 'customModules/weather/index';
 import { Power } from 'customModules/power/index';
+import { Hyprsunset } from 'customModules/hyprsunset/index';
+import { Hypridle } from 'customModules/hypridle/index';
 
 export {
     Menu,
@@ -46,4 +48,6 @@ export {
     Submap,
     Weather,
     Power,
+    Hyprsunset,
+    Hypridle,
 };

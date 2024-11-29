@@ -344,5 +344,15 @@
   "theme.bar.buttons.systray.customIcon": "#d8caac",
   "theme.bar.border.color": "#83c092",
   "theme.bar.menus.menu.media.timestamp": "#d3c6aa",
-  "theme.bar.buttons.borderColor": "#a7c080"
+  "theme.bar.buttons.borderColor": "#a7c080",
+  "theme.bar.buttons.modules.hyprsunset.icon": "#323d43",
+  "theme.bar.buttons.modules.hyprsunset.background": "#e67e80",
+  "theme.bar.buttons.modules.hyprsunset.icon_background": "#e67e80",
+  "theme.bar.buttons.modules.hyprsunset.text": "#323d43",
+  "theme.bar.buttons.modules.hyprsunset.border": "#e67e80",
+  "theme.bar.buttons.modules.hypridle.icon": "#323d43",
+  "theme.bar.buttons.modules.hypridle.background": "#e67e80",
+  "theme.bar.buttons.modules.hypridle.icon_background": "#e67e80",
+  "theme.bar.buttons.modules.hypridle.text": "#323d43",
+  "theme.bar.buttons.modules.hypridle.border": "#e67e80"
 }

@@ -1,5 +1,6 @@
 .menu-items-container.audio {
   min-width: 18em * $bar-menus-menu-volume-scaling * 0.01;
+
   @import "./menu.scss";
 
   * {

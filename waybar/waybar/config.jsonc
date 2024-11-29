@@ -21,7 +21,7 @@
         "hyprland/window"
     ],
     "modules-center": [
-       "custom/music"
+    "custom/spotify"
     ],
     "modules-right": [
       //  "mpd",

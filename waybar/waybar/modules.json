@@ -114,29 +114,7 @@
         "max-length": 50,
         "on-click": "alacritty -e nmtui"
     },
-  "custom/music": {
-    "format": "{icon} {text}",
-    "format-icons": {
-        // "Playing": " ", // Uncomment if not using caway
-        "Paused": "  ",
-        "Stopped": "&#x202d;ﭥ ", // This stop symbol is RTL. So &#x202d; is left-to-right override.
-        "exec": "/home/mv/art.sh",
-    "interval": 10,
-    "return-type": "json",
-    "format": "{}",
-    "tooltip": false
-    },
-    "escape": true,
-    "tooltip": true,
-    "exec": "~/.scripts/caway",
-    "return-type": "json",
-    "on-click": "playerctl play-pause",
-    "on-scroll-up": "playerctl next",
-    "on-scroll-down": "playerctl previous",
-    "on-click-right": "g4music",
-    "max-length": 35
-  },
-    // Battery
+     // Battery
     "battery": {
         "states": {
             // "good": 95,

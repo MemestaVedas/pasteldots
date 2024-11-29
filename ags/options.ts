@@ -4,7 +4,7 @@ import { KbLabelType } from 'lib/types/customModules/kbLayout';
 import {
     ActiveWsIndicator,
     BarButtonStyles,
-    BarLayout,
+    BarLayouts,
     BarLocation,
     BluetoothBatteryState,
     BorderLocation,
@@ -374,6 +374,24 @@ const options = mkOptions(OPTIONS, {
                         background: opt(colors.base2),
                         text: opt(colors.teal),
                         icon: opt(colors.teal),
+                        icon_background: opt(colors.base2),
+                        spacing: opt('0.45em'),
+                    },
+                    hyprsunset: {
+                        enableBorder: opt(false),
+                        border: opt(colors.peach),
+                        background: opt(colors.base2),
+                        text: opt(colors.peach),
+                        icon: opt(colors.peach),
+                        icon_background: opt(colors.base2),
+                        spacing: opt('0.45em'),
+                    },
+                    hypridle: {
+                        enableBorder: opt(false),
+                        border: opt(colors.pink),
+                        background: opt(colors.base2),
+                        text: opt(colors.pink),
+                        icon: opt(colors.pink),
                         icon_background: opt(colors.base2),
                         spacing: opt('0.45em'),
                     },
@@ -854,7 +872,7 @@ const options = mkOptions(OPTIONS, {
 
     bar: {
         scrollSpeed: opt(5),
-        layouts: opt<BarLayout>({
+        layouts: opt<BarLayouts>({
             '1': {
                 left: ['dashboard', 'workspaces', 'windowtitle'],
                 middle: ['media'],
@@ -1095,6 +1113,31 @@ const options = mkOptions(OPTIONS, {
                 scrollUp: opt(''),
                 scrollDown: opt(''),
             },
+            hyprsunset: {
+                temperature: opt('6000k'),
+                label: opt(true),
+                onIcon: opt('󱩌'),
+                offIcon: opt('󰛨'),
+                onLabel: opt('On'),
+                offLabel: opt('Off'),
+                pollingInterval: opt(1000 * 2),
+                rightClick: opt(''),
+                middleClick: opt(''),
+                scrollUp: opt(''),
+                scrollDown: opt(''),
+            },
+            hypridle: {
+                label: opt(true),
+                onIcon: opt(''),
+                offIcon: opt(''),
+                onLabel: opt('On'),
+                offLabel: opt('Off'),
+                pollingInterval: opt(1000 * 2),
+                rightClick: opt(''),
+                middleClick: opt(''),
+                scrollUp: opt(''),
+                scrollDown: opt(''),
+            },
         },
     },
 
@@ -1117,6 +1160,12 @@ const options = mkOptions(OPTIONS, {
             raiseMaximumVolume: opt(false),
         },
         power: {
+            lowBatteryNotification: opt(false),
+            lowBatteryThreshold: opt(20),
+            lowBatteryNotificationTitle: opt('Warning: Low battery'),
+            lowBatteryNotificationText: opt(
+                'Your battery is running low ($POWER_LEVEL %).\n\nPlease plug in your charger.',
+            ),
             showLabel: opt(true),
             confirmation: opt(true),
             sleep: opt('systemctl suspend'),
