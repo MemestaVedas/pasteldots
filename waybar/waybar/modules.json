@@ -100,7 +100,13 @@
             "hyprland/language"
         ]
     },
-    
+   //Spotify
+  "custom/spotify": {
+    "format": "  {artist} - {title}",
+    "max-length": 50,
+    "on-click": "spotify"
+  },
+
    // Network
     "network": {
         "format": "{ifname}",
